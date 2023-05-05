@@ -130,3 +130,11 @@
 		   </div>`
             );
         });
+
+        // Combine the output list into one string of HTML and place it on the page
+        quizContainer.innerHTML = output.join("");
+    }
+
+    // Collect answer containers from our quiz
+    function showResults() {
+        const answerContainers = quizContainer.querySelectorAll(".answers");
