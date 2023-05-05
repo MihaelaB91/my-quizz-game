@@ -23,7 +23,9 @@
 <h2>Validator testing</h2>
 <h2>1. HTML</h2>
 <p>No errors were returned when passing through the official W3C validator.</p>
-<img src="assets/images/W3C Validator.png" alt="W3 Validator">
+
+
+
 <h2>2. CSS</h2>
 <p>No errors were found when passing through the official (Jigsaw) validator.</p>
 <img src="assets/images/Jigsaw validator.png" alt="Jigsaw Validator">
