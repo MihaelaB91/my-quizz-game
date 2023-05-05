@@ -87,3 +87,19 @@ footer {
     color: #EFD9D1;
 
 }
+
+/* Add media quries for screens smaller than 1132 px*/
+@media only screen and (max-width: 1132px) {
+    button {
+        margin-top: 60px;
+    }
+
+}
+
+/* Add media quries for screens smaller than 564 px*/
+@media only screen and (max-width: 564px) {
+    button {
+        margin-top: 80px;
+    }
+
+}
