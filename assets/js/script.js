@@ -103,3 +103,11 @@
             correctAnswer: "a"
         },
     ];
+
+    // Store the HTML output for each question and the list of answer choices and for each available answer
+    function buildQuiz() {
+        const output = [];
+        myQuestions.forEach((currentQuestion, questionNumber) => {
+
+            const answers = [];
+            for (letter in currentQuestion.answers) {
