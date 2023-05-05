@@ -78,3 +78,12 @@ button:hover {
     height: 200px;
     margin-top: 40px;
 }
+
+footer {
+    font-size: small;
+}
+
+.fa-solid {
+    color: #EFD9D1;
+
+}
