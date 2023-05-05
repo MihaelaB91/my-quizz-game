@@ -111,3 +111,13 @@
 
             const answers = [];
             for (letter in currentQuestion.answers) {
+
+                // Add an HTML radio button
+                answers.push(
+                    `<label>
+			   <input type="radio" name="question${questionNumber}" value="${letter}">
+				${letter} :
+				${currentQuestion.answers[letter]}
+			 </label>`
+                );
+            }
