@@ -18,3 +18,42 @@ h1 {
     background-color: #a78a82;
     color: #fff;
 }
+
+.question {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.answers {
+    margin-bottom: 30px;
+    text-align: left;
+    display: inline-block;
+}
+
+.answers label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+button {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    background-color: #999B84;
+    color: #fff;
+    border: 0px;
+    border-radius: 3px;
+    padding: 20px;
+    cursor: grab;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: #797a68;
+}
+
+.next-btn {
+    position: relative;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
