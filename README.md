@@ -23,14 +23,13 @@
 <h2>Validator testing</h2>
 <h2>1. HTML</h2>
 <p>No errors were returned when passing through the official W3C validator.</p>
-
-
-
+<img src="assets/images/w3c_validator.png" alt="w3c Validator">
 <h2>2. CSS</h2>
 <p>No errors were found when passing through the official (Jigsaw) validator.</p>
 <img src="assets/images/Jigsaw validator.png" alt="Jigsaw Validator">
 <h2>Jshint</h2>
 <p>Error unable to fix:	'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).</p>
+<img src="assets/images/jshint.png" alt="Jshint Validator">
 
 <h1>Deployment</h1>
 <p></p>The site was deployed to GitHub pages. The steps to deploy are as follows:<p>
