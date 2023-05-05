@@ -121,3 +121,12 @@
 			 </label>`
                 );
             }
+
+            // Add the question and the answers to the output
+            output.push(
+                `<div class="slide">
+			 <div class="question"> ${currentQuestion.question} </div>
+			 <div class="answers"> ${answers.join("")} </div>
+		   </div>`
+            );
+        });
