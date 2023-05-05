@@ -208,3 +208,11 @@
     submitButton.addEventListener("click", showResults);
     previousButton.addEventListener("click", showPreviousSlide);
     nextButton.addEventListener("click", showNextSlide);
+
+})();
+
+// Reset button
+document.querySelector('.restart-btn').addEventListener('click', function () {
+    window.location.reload();
+    return false;
+});
