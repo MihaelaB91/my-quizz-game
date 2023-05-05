@@ -138,3 +138,11 @@
     // Collect answer containers from our quiz
     function showResults() {
         const answerContainers = quizContainer.querySelectorAll(".answers");
+
+        // Keep the track of user's answers for each question
+        let numCorrect = 0;
+
+        myQuestions.forEach((currentQuestion, questionNumber) => {
+            const answerContainer = answerContainers[questionNumber];
+            const selector = `input[name=question${questionNumber}]:checked`;
+            const userAnswer = (answerContainer.querySelector(selector) || {}).value;
